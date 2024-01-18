@@ -9,7 +9,7 @@ services:
       dockerfile: DockerfileStore
     environment: 
       - ProductEndpoint=http://backend:8080
-      - ImagePrefix=http://localhost
+      - ImagePrefix=https://urban-potato-4pwv44jp6g2qq7q-32001.app.github.dev/images
     ports:
       - "32000:8080"
     depends_on: 
